@@ -1,0 +1,10 @@
+dubbo:
+  monitor:
+    protocol: registry
+  application:
+    name: boot-consumer
+  registry:
+    address: 192.168.110.22:2181|192.168.162.225:2181
+    protocol: zookeeper
+server:
+  port: 8083
